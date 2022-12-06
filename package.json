@@ -1,8 +1,8 @@
 {
   "name": "nodejs",
   "version": "1.0.0",
-  "description": "backend nodejs happy learning",
-  "main": "index.js",
+  "description": "backend nodejs hoiDanIT",
+  "main": "server.js",
   "engines": {
     "node": "14.x"
   },
@@ -10,7 +10,7 @@
     "hmr": "nodemon index.js",
     "nodemon": "npm run hmr",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "nodemon --exec babel-node src/server.js"
   },
   "keywords": [
     "fullstack",
