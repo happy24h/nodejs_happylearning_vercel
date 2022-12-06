@@ -10,7 +10,7 @@
     "hmr": "nodemon index.js",
     "nodemon": "npm run hmr",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --exec babel-node src/server.js"
+    "start": "node index.js"
   },
   "keywords": [
     "fullstack",
